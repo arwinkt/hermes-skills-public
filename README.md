@@ -30,6 +30,9 @@ these patterns are useful beyond just my setup.
 | [`systematic-debugging`](skills/systematic-debugging/) | 4-phase root cause methodology — understand bugs before fixing | Any developer |
 | [`writing-plans`](skills/writing-plans/) | Write implementation plans with bite-sized tasks, exact paths, complete code | Anyone building features |
 | [`subagent-driven-development`](skills/subagent-driven-development/) | Execute plans via delegate_task subagents with 2-stage review (spec + quality) | Hermes power users |
+| [`test-driven-development`](skills/test-driven-development/) | Strict RED-GREEN-REFACTOR cycle — no production code without a failing test first | Any developer |
+| [`requesting-code-review`](skills/requesting-code-review/) | Pre-commit verification pipeline: static security scan, baseline tests, independent reviewer subagent, auto-fix loop | Any developer |
+| [`spike`](skills/spike/) | Throwaway experiments to validate an idea before committing to a real build | Anyone evaluating approaches |
 
 ### Multi-Agent / Kanban Skills
 
@@ -96,6 +99,15 @@ you can follow manually or adapt to any AI assistant.
 
 **"I want Hermes to implement features for me with quality guarantees"**
 → Install `writing-plans` + `subagent-driven-development`. Use them in sequence.
+
+**"I want to enforce TDD discipline on every feature"**
+→ Install `test-driven-development`. The Red Flags section is worth reading before you start.
+
+**"I want automated code review before every commit"**
+→ Install `requesting-code-review`. It runs a static scan + independent reviewer subagent + auto-fix loop.
+
+**"I want to validate an idea before spending days building it"**
+→ Install `spike`. Build a throwaway experiment first, get a VALIDATED/INVALIDATED verdict, then commit to the real build.
 
 **"I want an Obsidian-connected second brain with slash commands"**
 → Install `second-brain`. Update `<YOUR_VAULT_PATH>` to your vault. Type `/today`.
