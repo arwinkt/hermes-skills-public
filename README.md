@@ -6,7 +6,7 @@ A collection of battle-tested skills for [Hermes Agent](https://hermes-agent.nou
 
 ## Why I Made This
 
-I'm a 22-year-old founder running [EverMetric Health](https://evermetrichealth.store) and building [Paperclip AI](https://github.com/paperclipai/paperclip) — an open-source AI agent orchestration platform with 30k+ GitHub stars.
+I'm a 22-year-old startup founder building products and working on [Paperclip AI](https://github.com/paperclipai/paperclip) — an open-source AI agent orchestration platform with 30k+ GitHub stars.
 
 Over the past few months I've been building out a personal agentic OS on top of Hermes Agent:
 multi-agent Paperclip stacks running 12 autonomous agents, an Obsidian second brain with slash
